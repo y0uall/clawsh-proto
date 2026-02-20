@@ -2,7 +2,7 @@
 name = "clawsh-proto"
 description = "Shared wire protocol and cryptography for the clawsh C2 framework"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 authors = ["y0uall"]
 license = "MIT"
 repository = "https://github.com/y0uall/clawsh-proto"
