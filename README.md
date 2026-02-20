@@ -1,5 +1,11 @@
 # clawsh-proto
 
+<p align="center">
+  <img src="https://img.shields.io/badge/built%20with-Rust-orange?logo=rust" alt="Rust">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
+  <a href="https://github.com/y0uall/clawsh"><img src="https://img.shields.io/badge/used%20by-clawsh-blue" alt="clawsh"></a>
+</p>
+
 Shared wire protocol and cryptography library for the clawsh C2 framework. Used by both the handler ([clawsh](https://github.com/y0uall/clawsh)) and the implant ([clawsh-imp](https://github.com/y0uall/clawsh-imp)).
 
 This library is open source so the protocol and cryptographic design can be audited independently of either implementation.
@@ -244,15 +250,7 @@ All cryptography uses audited crates from the RustCrypto ecosystem. No custom cr
 
 ```toml
 [dependencies]
-clawsh-proto = { path = "../clawsh-proto" }
-```
-
-```rust
-use clawsh_proto::{
-    crypto::{Psk, SessionKeypair},
-    frame::{read_message, write_message},
-    messages::Message,
-};
+clawsh-proto = { git = "https://github.com/y0uall/clawsh-proto" }
 ```
 
 See `tests/` for full handshake and encryption roundtrip examples.
