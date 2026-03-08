@@ -1,4 +1,4 @@
-# clawsh-proto
+# 🦀 clawsh-proto
 
 <p align="center">
   <img src="https://img.shields.io/badge/v2.0.0-release-blue" alt="Version">
