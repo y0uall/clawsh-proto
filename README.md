@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/built%20with-Rust-orange?logo=rust" alt="Rust">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
   <a href="https://github.com/y0uall/clawsh"><img src="https://img.shields.io/badge/used%20by-clawsh-blue" alt="clawsh"></a>
+  <a href="https://github.com/y0uall/clawsh-imp"><img src="https://img.shields.io/badge/used%20by-clawsh--imp-blue" alt="clawsh-imp"></a>
 </p>
 
 Shared wire protocol and cryptography library for the clawsh C2 framework. Used by both the handler ([clawsh](https://github.com/y0uall/clawsh)) and the implant ([clawsh-imp](https://github.com/y0uall/clawsh-imp)).
